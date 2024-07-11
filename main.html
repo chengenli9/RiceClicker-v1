@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rice Farm</title>
+  <link rel="icon" href="images/rice-bowl.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <div id="bank">
+        <h1 id="grain-count" class="bank-text">0 grains</h1>
+        <button id="rice-btn"><img src="images/rice-bowl.png" id="rice-btn-img"></button>
+        <p id="per-click">1 grain per click</p>
+        <h1 class="income-display">Income: 0 g/s</h1>
+      </div>
+    <div id="display">
+      <h1 class="display-text">Rice Farm</h1>
+      <div id="field">
+        <div id="sky"></div>
+        <div class="upgrades-display rice-plant-count"></div>
+        <div class="upgrades-display farmer-count"></div>
+        <div class="upgrades-display hut-count"></div>
+        <div class="upgrades-display house-count"></div>
+        <div class="upgrades-display factory-count"></div>
+        <div class="upgrades-display temple-count"></div>
+
+      </div> 
+      <h1 class="display-text">Store</h1>
+    
+      <div id="storeTwo" class="store">
+        <div id="rice-cooker-btn" class="upgrades" >
+          <span class="upgrade-info">not enough</span>
+          <h1 class="upgrade-name">Rice Cooker</h1>
+          <img src="images/rice-cooker.png" class="upgrade-img">
+          <p class="stats">+1</p>
+          <div class="upgrade-cost">cost: 10</div>
+        </div>
+        <div id="rice-plant-btn" class="upgrades" >
+          <span class="upgrade-info">not enough</span>
+          <h1 class="upgrade-name">Rice Plant</h1>
+          <img src="images/rice-plant.png" class="upgrade-img">
+          <p class="stats">+5 g/s</p>
+          <div class="upgrade-cost">cost: 25</div>
+        </div>
+        <div id="farmer-btn" class="upgrades">
+          <span class="upgrade-info">not enough</span>
+          <h1 class="upgrade-name">Farmer</h1>
+          <img src="images/asian.png" class="upgrade-img">
+          <p class="stats">+10 g/s</p>
+          <div class="upgrade-cost">cost: 100</div>
+        </div>
+        <div id="hut-btn" class="upgrades">
+          <span class="upgrade-info">not enough</span>
+          <h1 class="upgrade-name">Hut</h1>
+          <img src="images/hut.png" class="upgrade-img">
+          <p class="stats">+50 g/s</p>
+          <div class="upgrade-cost">cost: 2500</div>
+        </div>
+        <div id="house-btn" class="upgrades">
+          <span class="upgrade-info">not enough</span>
+          <h1 class="upgrade-name">House</h1>
+          <img src="images/apartment.png" class="upgrade-img">
+          <p class="stats">+100 g/s</p>
+          <div class="upgrade-cost">cost: 10000</div>
+        </div>
+        <div id="factory-btn" class="upgrades">
+          <span class="upgrade-info">not enough</span>
+          <h1 class="upgrade-name">Factory</h1>
+          <img src="images/factory.png" class="upgrade-img">
+          <p class="stats">+500 g/s</p>
+          <div class="upgrade-cost">cost: 250000</div>
+        </div>
+        <div id="temple-btn" class="upgrades">
+          <span class="upgrade-info">not enough</span>
+          <h1 class="upgrade-name">Temple</h1>
+          <img src="images/temple.png" class="upgrade-img">
+          <p class="stats">+1000 g/s</p>
+          <div class="upgrade-cost">cost: 1000000</div>
+        </div>
+      </div>
+      
+
+    </div>
+
+    
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
